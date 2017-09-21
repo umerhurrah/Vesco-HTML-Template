@@ -39,6 +39,57 @@ p{
     animation-delay: 1s;
 }
 
+/* Buttons */
+.btn-general{
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-white{
+    border-color: #f7fff7;
+    color: #f7fff7;
+}
+
+.btn-white:hover,
+.btn-white:focus{
+    background-color: #f7fff7;
+    color: #000000;
+}
+
+.btn-dblue{
+    border-color: #1a535c;
+    color: #1a535c;
+}
+
+.btn-dblue:hover,
+.btn-dblue:focus{
+    background-color: #1a535c;
+    color: #f7fff7;
+}
+
+/* Content Box */
+.content-box{
+    padding: 60px 0;
+}
+
+.content-title h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.content-title-underline{
+    width: 50px;
+    height: 3px;
+    background-color: #ff6b6b;
+    margin: 0 auto 30px auto;
+}
+
 /* Home */
 #home{
     height: 100%;
@@ -67,46 +118,6 @@ p{
     font-size: 35px;
     font-weight: 700;
     margin: 20px 0;
-}
-
-/* Buttons */
-.btn-general{
-    border-width: 2px;
-    border-radius: 0;
-    padding: 12px 26px;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.btn-white{
-    border-color: #f7fff7;
-    color: #f7fff7;
-}
-
-.btn-white:hover,
-.btn-white:focus{
-    background-color: #f7fff7;
-    color: #000000;
-}
-
-/* Content Box */
-.content-box{
-    padding: 60px 0;
-}
-
-.content-title h3{
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0 0 10px 0;
-}
-
-.content-title-underline{
-    width: 50px;
-    height: 3px;
-    background-color: #ff6b6b;
-    margin: 0 auto 30px auto;
 }
 
 /* Services */
@@ -143,10 +154,64 @@ p{
     padding-left: 85px;
 }
 
+/* About */
+#about-bg-diagonal{
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-size: cover;
+    background: url("../img/bg-about.jpg") no-repeat fixed center;
+    border-left: 200px solid #f7fff7;
+    border-top: 700px solid transparent;
+}
 
+.about-content-box{
+    float: left;
+    height: 700px;
+}
 
+#about-content-box-outer{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
 
+#about-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
 
+#about .content-title h3{
+    text-align: left;
+}
+
+#about .content-title .content-title-underline{
+    margin: 0 0 30px 0;
+}
+
+#about-desc p{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Work */
+.row.no-gutters [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper{
+    overflow: hidden;
+}
+
+.img-wrapper img{
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
 
 
 
