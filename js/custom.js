@@ -14,3 +14,14 @@ $(function () {
         }
     });
 });
+
+//OWL CAROUSEL
+$(function () {
+    $("#team-members").owlCarousel({
+        items: 3,
+        autoplay: true,
+        smartSpeed: 750,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
