@@ -44,3 +44,14 @@ $(function () {
         time: 2000
     });
 });
+
+//OWL CAROUSEL FOR CLIENTS
+$(function () {
+    $("#clients-list").owlCarousel({
+        items: 5,
+        autoplay: true,
+        smartSpeed: 750,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
