@@ -15,10 +15,21 @@ $(function () {
     });
 });
 
-//OWL CAROUSEL
+//OWL CAROUSEL FOR TEAM
 $(function () {
     $("#team-members").owlCarousel({
         items: 3,
+        autoplay: true,
+        smartSpeed: 750,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
+
+//OWL CAROUSEL FOR TESTIMONIALS
+$(function () {
+    $("#customers-testimonials").owlCarousel({
+        items: 1,
         autoplay: true,
         smartSpeed: 750,
         loop: true,
