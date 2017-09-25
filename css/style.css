@@ -71,6 +71,16 @@ p{
     color: #f7fff7;
 }
 
+/* Back to Top */
+.btn-back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    display: none;
+}
+
 /* Content Box */
 .content-box{
     padding: 60px 0;
@@ -126,6 +136,66 @@ p{
 
 .social-icon i:hover{
     color: #ffe66d;
+}
+
+/* Navigation */
+.navbar{
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.vesco-top-nav{
+    background-color: rgba(255, 107, 107, 1);
+    padding: 7px 0;
+    border: none;
+}
+
+.vesco-nav-wrapper{
+    padding: 0 85px;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.navbar-nav > li > a{
+    color: #f7f7f7 !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+    background: none;
+    color: #ffe66d !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #ffe66d !important;
+    color: #f7f7f7 !important;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-collapse{
+    max-height: none !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #ffe66d !important;
+    color: #ff6b6b !important;
 }
 
 /* Home */
@@ -529,22 +599,3 @@ form .form-control{
 #footer-menu a:hover{
     color: #ffe66d;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
