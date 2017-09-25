@@ -120,8 +120,12 @@ p{
     color: #ff6b6b;
 }
 
+.icon-white{
+    color: #f7f7f7;
+}
+
 .social-icon i:hover{
-    color: #1a535c;
+    color: #ffe66d;
 }
 
 /* Home */
@@ -433,6 +437,105 @@ ul.pricing-specification li p{
 .client{
     padding: 40px 0;
 }
+
+/* Contact */
+footer{
+    background-color: #1a535c;
+    padding-top: 30px;
+    border-top: 5px solid rgba(255, 107, 107, 1);
+}
+
+#contact-left h3,
+#contact-right h3{
+    color: #f7f7f7;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p{
+    color: #f7f7f7;
+    margin-bottom: 30px;
+}
+
+#contact-info{
+    background: url("../img/world-map.png") no-repeat;
+    background-size: contain;
+}
+
+address{
+    color: #f7f7f7;
+}
+
+address strong,
+#phone-fax-email strong{
+    letter-spacing: 1px;
+}
+
+form .form-control{
+    background: transparent;
+    border-radius: 0;
+    border-color: #f7f7f7;
+    font-size: 17px;
+    font-weight: 300;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    color: #f7f7f7;
+}
+
+/* Copyright */
+#footer-bottom{
+    background-color: rgba(255, 107, 107, 1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p{
+    margin: 0;
+    color: #f7f7f7;
+    font-weight: 700;
+}
+
+#footer-menu{
+    float: left;
+    color: #f7f7f7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li{
+    display: inline-block;
+    color: #f7f7f7;
+    font-weight: 700;
+}
+
+#footer-menu a{
+    color: #f7f7f7;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 2px;
+}
+
+#footer-menu a:hover{
+    color: #ffe66d;
+}
+
+
+
+
+
+
+
 
 
 
