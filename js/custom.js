@@ -22,7 +22,21 @@ $(function () {
         autoplay: true,
         smartSpeed: 750,
         loop: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            },
+            768: {
+                items: 3
+            },
+            992: {
+                items: 5
+            }
+        }
     });
 });
 
@@ -52,8 +66,24 @@ $(function () {
         autoplay: true,
         smartSpeed: 750,
         loop: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 3
+            },
+            768: {
+                items: 5
+            },
+            992: {
+                items: 6
+            }
+        }
     });
+
+
 });
 
 //NAVIGATION
@@ -87,25 +117,9 @@ $(function () {
     });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//CLOSE MOBILE MENU ON CLICK
+$(function () {
+    $(".navbar-collapse ul li a").on("click touch", function () {
+        $(".navbar-toggle").click();
+    });
+});
